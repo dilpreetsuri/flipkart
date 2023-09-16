@@ -38,7 +38,7 @@ public class OrangeHRMTestCase {
 	assertEquals(actualTitleAfterLogin, expectedTitleAfterLogin); 
 	assertEquals(actualTitleAfterLogin, expectedTitleAfterLogin, "login failed!");
     
-	//Overloaded method of assert
+	
 	// 3rd parameter is a message which will be displayed on failure
 	    
   }  
@@ -50,8 +50,8 @@ public class OrangeHRMTestCase {
 	 driver = new ChromeDriver();
 	 driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 	 driver.manage().window().maximize();
-   //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(7));
-	 //Using Explicit wait
+
+	
 	 wait = new WebDriverWait(driver, Duration.ofSeconds(7));
 	  
   }
