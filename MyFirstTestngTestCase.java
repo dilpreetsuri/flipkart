@@ -23,7 +23,7 @@ public class MyFirstTestngTestCase {
 
 		WebElement user = driver.findElement(By.name("username"));
 		user.sendKeys("stc123");
-		
+		//Sending username as stc123
 		
           System.out.println(user.getAttribute("value"));
 		
